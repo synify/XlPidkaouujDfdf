@@ -12,6 +12,6 @@ export class Main extends Component {
         // Init Core
         Engine.Init();
         StoryInit();
-        Engine.StoryMgr.Get("story_load_scene_plane")();
+        Engine.StoryMgr.Get("switch_game")();
     }
 }
