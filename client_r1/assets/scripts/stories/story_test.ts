@@ -1,9 +1,9 @@
-import Engine from "../engine/Engine";
+import Engine from "../../engine/Engine";
 
 export function story_test(): void{
     Engine.LogInfo("lyj test: ------------------------------------------------------------loadScene 123");
    
-    let handle = Engine.EventMgr.BindEvent("KeyDown", keyd);
+    let handle = Engine.BindEvent("KeyDown", keyd);
     Engine.LogInfo("handle = "+handle.toString());
     Engine.LoadScene("123");
 }

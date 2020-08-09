@@ -1,0 +1,40 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "67c70956-6f40-4e1f-ad60-8be345a7d0ed",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "67c70956-6f40-4e1f-ad60-8be345a7d0ed@6c48a",
+      "displayName": "GreenMonster",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "67c70956-6f40-4e1f-ad60-8be345a7d0ed"
+      }
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "redirect": "67c70956-6f40-4e1f-ad60-8be345a7d0ed@6c48a"
+  }
+}

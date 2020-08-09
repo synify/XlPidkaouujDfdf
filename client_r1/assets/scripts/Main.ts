@@ -1,17 +1,15 @@
 
-import Engine from "./engine/Engine";
+import Engine from "../engine/Engine";
 import {Init as StoryInit}  from "./stories/Init";
 
-import { _decorator, Component } from 'cc';
-
-const { ccclass } = _decorator;
-
-@ccclass('Main')
-export class Main extends Component {
+@Engine.CCAPI.ccclass('Main')
+export class Main extends Engine.CCAPI.Component {
     start () {
         // Init Core
         Engine.Init();
         StoryInit();
-        Engine.StoryMgr.Get("switch_game")();
+        Engine.GetStory("switch_game")();
     }
 }
+
+
