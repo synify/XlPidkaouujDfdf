@@ -1,6 +1,6 @@
-import Engine from "../../engine/Engine";
-import {story_test} from "./story_test";
-import {story_load_scene_plane} from "./story_load_scene_plane";
+import { Engine } from "../../engine/Engine";
+import { story_test } from "./story_test";
+import { story_load_scene_plane } from "./story_load_scene_plane";
 import { switch_game } from "./switch_game";
 import { load_scene_snake } from "./load_scene_snake";
 

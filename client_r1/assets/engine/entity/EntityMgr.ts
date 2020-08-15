@@ -1,5 +1,5 @@
 
-export default class EntityMgr {
+export class EntityMgr {
     entities: {};
     entity_mgr_uuid: number;
     Init(): void {

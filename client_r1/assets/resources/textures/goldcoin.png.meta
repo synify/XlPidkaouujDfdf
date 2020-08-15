@@ -2,7 +2,7 @@
   "ver": "1.0.18",
   "importer": "image",
   "imported": true,
-  "uuid": "6e235021-15f4-471b-9672-b16581bf94e6",
+  "uuid": "67bdde74-ff95-40d2-b782-7cd832d0bff3",
   "files": [
     ".png",
     ".json"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "6e235021-15f4-471b-9672-b16581bf94e6@6c48a",
+      "uuid": "67bdde74-ff95-40d2-b782-7cd832d0bff3@6c48a",
       "displayName": "goldcoin",
       "id": "6c48a",
       "name": "texture",
@@ -29,12 +29,12 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "6e235021-15f4-471b-9672-b16581bf94e6"
+        "imageUuidOrDatabaseUri": "67bdde74-ff95-40d2-b782-7cd832d0bff3"
       }
     }
   },
   "userData": {
     "type": "texture",
-    "redirect": "6e235021-15f4-471b-9672-b16581bf94e6@6c48a"
+    "redirect": "67bdde74-ff95-40d2-b782-7cd832d0bff3@6c48a"
   }
 }

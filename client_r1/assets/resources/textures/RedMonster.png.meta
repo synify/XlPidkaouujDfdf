@@ -2,7 +2,7 @@
   "ver": "1.0.18",
   "importer": "image",
   "imported": true,
-  "uuid": "74ea1e48-ba85-4de8-90d2-240d64087dec",
+  "uuid": "795788ed-bfcd-4342-9ab5-3bed5684b912",
   "files": [
     ".png",
     ".json"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "74ea1e48-ba85-4de8-90d2-240d64087dec@6c48a",
+      "uuid": "795788ed-bfcd-4342-9ab5-3bed5684b912@6c48a",
       "displayName": "RedMonster",
       "id": "6c48a",
       "name": "texture",
@@ -29,12 +29,12 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "74ea1e48-ba85-4de8-90d2-240d64087dec"
+        "imageUuidOrDatabaseUri": "795788ed-bfcd-4342-9ab5-3bed5684b912"
       }
     }
   },
   "userData": {
     "type": "texture",
-    "redirect": "74ea1e48-ba85-4de8-90d2-240d64087dec@6c48a"
+    "redirect": "795788ed-bfcd-4342-9ab5-3bed5684b912@6c48a"
   }
 }

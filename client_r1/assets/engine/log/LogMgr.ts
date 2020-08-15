@@ -1,5 +1,5 @@
 
-export default class LogMgr {
+export class LogMgr {
     logs: {};
 
     Init(): void {

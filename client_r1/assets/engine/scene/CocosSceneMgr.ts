@@ -1,6 +1,6 @@
-import Engine from "../Engine";
+import { Engine } from "../Engine";
 
-export default class CocosSceneMgr {
+export class CocosSceneMgr {
     scene_name: string;
     scene_start: boolean;
     Init(): void {

@@ -1,13 +1,15 @@
-import Engine from "../Engine";
+import { PriorityQueue } from "../Engine";
 
-export default class TimerMgr {
+export class TimerMgr {
+    time: number;
     timer_mgr_uuid: number;
     time_map: {};
     pq_que;
     add_timer_temp_list: number[];
     Init(): void {
+        this.time = 0;
         this.timer_mgr_uuid = 0;
-        this.pq_que = new Engine.PriorityQueue(function(a, b){return a.time < b.time;});
+        this.pq_que = new PriorityQueue(function(a, b){return a.time < b.time;});
         this.time_map = {};
         this.add_timer_temp_list = [];
     }
@@ -15,16 +17,16 @@ export default class TimerMgr {
         return ++ this.timer_mgr_uuid;
     }
     Update(dt: number): void {
-        let engine_time = Engine.GetEngineTime();
+        this.time += dt;
         for (let uuid of this.add_timer_temp_list){
             let item = this.time_map[uuid];
             if (!item) continue;
-            this.pq_que.Push({time:engine_time+item.time, uuid:uuid}) 
+            this.pq_que.Push({time:this.time+item.time, uuid:uuid}) 
         }
         while (this.add_timer_temp_list.length > 0) {
             this.add_timer_temp_list.pop();
         }
-        while (!this.pq_que.IsEmpty() && this.pq_que.Top().time <= engine_time) {
+        while (!this.pq_que.IsEmpty() && this.pq_que.Top().time <= this.time) {
             let uuid = this.pq_que.Top().uuid;
             this.pq_que.Pop();
             let item = this.time_map[uuid];

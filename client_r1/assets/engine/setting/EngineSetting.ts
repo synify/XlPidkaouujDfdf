@@ -1,5 +1,5 @@
 
-export default class EngineSetting {
+export class EngineSetting {
     fps: number;
     Init(): void {
         this.SetFPS(30);

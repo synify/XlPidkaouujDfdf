@@ -1,5 +1,5 @@
 
-export default class StoryMgr {
+export class StoryMgr {
     storys: {};
     Init(): void {
         this.storys = {};

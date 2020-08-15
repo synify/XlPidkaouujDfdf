@@ -1,5 +1,5 @@
 
-export default class Const {
+export class EngineConst {
     //  event
     static KeyDown = "KeyDown"; //event data key: keyCode 
     static KeyUp = "KeyUp"; //event data key: keyCode 

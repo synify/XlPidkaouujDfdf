@@ -1,8 +1,8 @@
 
-import Engine from "../Engine";
+import { Engine, CCAPI } from "../Engine";
 
-@Engine.CCAPI.ccclass('EngineOnUpdate')
-export class EngineOnUpdate extends Engine.CCAPI.Component {
+@CCAPI.ccclass('EngineOnUpdate')
+export class EngineOnUpdate extends CCAPI.Component {
     update (deltaTime: number) {
         Engine.OnUpdate(deltaTime);
     }

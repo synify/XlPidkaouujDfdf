@@ -2,7 +2,7 @@
   "ver": "1.0.18",
   "importer": "image",
   "imported": true,
-  "uuid": "9fc4039c-209a-4961-8585-5f15cac96c4f",
+  "uuid": "3f8c7109-9ee2-44a8-8758-16c63b611ab2",
   "files": [
     ".png",
     ".json"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "9fc4039c-209a-4961-8585-5f15cac96c4f@6c48a",
+      "uuid": "3f8c7109-9ee2-44a8-8758-16c63b611ab2@6c48a",
       "displayName": "BuleMonster",
       "id": "6c48a",
       "name": "texture",
@@ -29,45 +29,12 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "9fc4039c-209a-4961-8585-5f15cac96c4f"
-      }
-    },
-    "f9941": {
-      "importer": "sprite-frame",
-      "uuid": "9fc4039c-209a-4961-8585-5f15cac96c4f@f9941",
-      "displayName": "BuleMonster",
-      "id": "f9941",
-      "name": "spriteFrame",
-      "ver": "1.0.8",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {},
-      "userData": {
-        "trimType": "auto",
-        "trimThreshold": 1,
-        "rotated": false,
-        "offsetX": 0,
-        "offsetY": 0,
-        "trimX": 0,
-        "trimY": 0,
-        "width": 77,
-        "height": 77,
-        "rawWidth": 77,
-        "rawHeight": 77,
-        "borderTop": 0,
-        "borderBottom": 0,
-        "borderLeft": 0,
-        "borderRight": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "9fc4039c-209a-4961-8585-5f15cac96c4f@6c48a",
-        "atlasUuid": ""
+        "imageUuidOrDatabaseUri": "3f8c7109-9ee2-44a8-8758-16c63b611ab2"
       }
     }
   },
   "userData": {
-    "type": "sprite-frame",
-    "redirect": "9fc4039c-209a-4961-8585-5f15cac96c4f@f9941"
+    "type": "texture",
+    "redirect": "3f8c7109-9ee2-44a8-8758-16c63b611ab2@6c48a"
   }
 }

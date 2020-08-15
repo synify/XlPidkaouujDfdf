@@ -1,15 +1,14 @@
-import Engine from "../Engine";
+import { Engine, CCAPI } from "../Engine";
 
-
-export default class CocosSetting {
+export class CocosSetting {
     Init(): void {
         this.SetDisplayStats(false);
     }
     // 设置左下角隐藏
     SetDisplayStats(sw: boolean): void {
-        Engine.CCAPI.SetDisplayStats(sw);
+        CCAPI.SetDisplayStats(sw);
     }
     IsDisplayStats(): boolean {
-        return Engine.CCAPI.IsDisplayStats();
+        return CCAPI.IsDisplayStats();
     }
 }

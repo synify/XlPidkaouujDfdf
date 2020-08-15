@@ -1,4 +1,4 @@
-import Engine from "../../engine/Engine";
+import { Engine } from "../../engine/Engine";
 
 export function story_test(): void{
     Engine.LogInfo("lyj test: ------------------------------------------------------------loadScene 123");

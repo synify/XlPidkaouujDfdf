@@ -1,5 +1,5 @@
 
-export default class UpdateMgr {
+export class UpdateMgr {
     updates: Set<Function>;
     add_update_list: Function[];
     del_update_list: Function[];

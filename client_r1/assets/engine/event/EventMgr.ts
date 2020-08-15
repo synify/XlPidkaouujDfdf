@@ -1,5 +1,5 @@
 
-export default class EventMgr {
+export class EventMgr {
     event_listener: {};
     event_mgr_uuid: number;
     Init() {

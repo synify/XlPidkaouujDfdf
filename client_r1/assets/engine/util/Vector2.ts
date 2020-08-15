@@ -5,7 +5,7 @@ function eq(a: number, b: number): boolean {
     return Math.abs(a - b) <= eps;
 }
 
-export default class Vector2 {
+export class Vector2 {
     x: number;
     y: number;
 

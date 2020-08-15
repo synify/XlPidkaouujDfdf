@@ -1,7 +1,7 @@
-import Engine from "../Engine";
+import { Engine, CCAPI } from "../Engine";
 
-@Engine.CCAPI.ccclass('EngineOnStart')
-export class EngineOnStart extends Engine.CCAPI.Component {
+@CCAPI.ccclass('EngineOnStart')
+export class EngineOnStart extends CCAPI.Component {
     start () {
         Engine.OnStart();
     }

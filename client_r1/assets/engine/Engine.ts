@@ -1,37 +1,38 @@
-import CCAPI from "./CCAPI";
-import LogMgr from "./log/LogMgr";
-import EngineSetting from "./setting/EngineSetting";
-import CocosSetting from "./setting/CocosSetting";
-import UpdateMgr from "./update/UpdateMgr";
-import TimeSystem from "./time/TimeSystem";
-import TimerMgr from "./time/TimerMgr";
-import EventMgr from "./event/EventMgr";
-import StoryMgr from "./story/StoryMgr";
-import InputMgr from "./input/InputMgr";
-import CocosSceneMgr from "./scene/CocosSceneMgr";
-import Const from "./Const";
+import * as CCAPI from "./CCAPI";
+import { LogMgr } from "./log/LogMgr";
+import { EngineSetting } from "./setting/EngineSetting";
+import { CocosSetting } from "./setting/CocosSetting";
+import { UpdateMgr } from "./update/UpdateMgr";
+import { TimeSystem } from "./time/TimeSystem";
+import { TimerMgr } from "./time/TimerMgr";
+import { EventMgr } from "./event/EventMgr";
+import { StoryMgr } from "./story/StoryMgr";
+import { InputMgr } from "./input/InputMgr";
+import { CocosSceneMgr } from "./scene/CocosSceneMgr";
+import { EngineConst } from "./EngineConst";
 import { PriorityQueue } from "./util/PriorityQueue";
-import Vector2 from "./util/Vector2";
-import Vector3 from "./util/Vector3";
+import { Vector2 } from "./util/Vector2";
+import { Vector3 } from "./util/Vector3";
 
-export default class Engine {
-    ////////////////////////////////////////////////////////////////////////////// outside api
-    static CCAPI = CCAPI;
-    static LogMgr;
-    static EngineSetting;
-    static CocosSetting;
-    static UpdateMgr;
-    static TimeSystem;
-    static TimerMgr;
-    static EventMgr;
-    static StoryMgr;
-    static InputMgr;
-    static CocosSceneMgr;
-    static Const;
-    static PriorityQueue;
-    static Vector2;
-    static Vector3;
-    ////////////////////////////////////////////////////////////////////////////// outside api end
+export {
+    CCAPI,
+    LogMgr,
+    EngineSetting,
+    CocosSetting,
+    UpdateMgr,
+    TimeSystem,
+    TimerMgr,
+    EventMgr,
+    StoryMgr,
+    InputMgr,
+    CocosSceneMgr,
+    EngineConst,
+    PriorityQueue,
+    Vector2,
+    Vector3,
+};
+
+export class Engine {
     static engine_init_flag = false;
     static root_node;
     static log_mgr;
@@ -45,23 +46,6 @@ export default class Engine {
     static input_mgr;
     static cocos_scene_mgr;
     static Init(): void {
-        ////////////////////////////////////////////////////////////////////////////// outside api
-        Engine.CCAPI = CCAPI;
-        Engine.LogMgr = LogMgr;
-        Engine.EngineSetting = EngineSetting;
-        Engine.CocosSetting = CocosSetting;
-        Engine.UpdateMgr = UpdateMgr;
-        Engine.TimeSystem = TimeSystem;
-        Engine.TimerMgr = TimerMgr;
-        Engine.EventMgr = EventMgr;
-        Engine.StoryMgr = StoryMgr;
-        Engine.InputMgr = InputMgr;
-        Engine.CocosSceneMgr = CocosSceneMgr;
-        Engine.Const = Const;
-        Engine.PriorityQueue = PriorityQueue;
-        Engine.Vector2 = Vector2;
-        Engine.Vector3 = Vector3;
-        ////////////////////////////////////////////////////////////////////////////// outside api end
         // 添加常驻根节点
         Engine.root_node = CCAPI.FindNode("Engine");
         if(!Engine.root_node)
@@ -152,5 +136,4 @@ export default class Engine {
     static UnregisterStory(name: string): void {Engine.story_mgr.Unregister(name);}
     // cocosSceneMgr
     static LoadScene(name: string): boolean {return Engine.cocos_scene_mgr.LoadScene(name);}
-    
 }

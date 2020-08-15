@@ -1,5 +1,5 @@
 
-export default class TimeSystem {
+export class TimeSystem {
     time: number;
     Init(): void {
         this.time = 0;

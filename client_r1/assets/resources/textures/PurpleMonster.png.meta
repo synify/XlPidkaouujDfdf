@@ -2,7 +2,7 @@
   "ver": "1.0.18",
   "importer": "image",
   "imported": true,
-  "uuid": "b5cf5586-7e02-400a-95ff-6ce08a5cf31e",
+  "uuid": "f6ce379e-77d4-486a-9a24-80977779a46f",
   "files": [
     ".png",
     ".json"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "b5cf5586-7e02-400a-95ff-6ce08a5cf31e@6c48a",
+      "uuid": "f6ce379e-77d4-486a-9a24-80977779a46f@6c48a",
       "displayName": "PurpleMonster",
       "id": "6c48a",
       "name": "texture",
@@ -29,12 +29,12 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b5cf5586-7e02-400a-95ff-6ce08a5cf31e"
+        "imageUuidOrDatabaseUri": "f6ce379e-77d4-486a-9a24-80977779a46f"
       }
     }
   },
   "userData": {
     "type": "texture",
-    "redirect": "b5cf5586-7e02-400a-95ff-6ce08a5cf31e@6c48a"
+    "redirect": "f6ce379e-77d4-486a-9a24-80977779a46f@6c48a"
   }
 }

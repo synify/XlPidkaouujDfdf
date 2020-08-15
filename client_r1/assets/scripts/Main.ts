@@ -1,9 +1,9 @@
 
-import Engine from "../engine/Engine";
-import {Init as StoryInit}  from "./stories/Init";
+import { Engine, CCAPI } from "../engine/Engine";
+import { Init as StoryInit }  from "./stories/Init";
 
-@Engine.CCAPI.ccclass('Main')
-export class Main extends Engine.CCAPI.Component {
+@CCAPI.ccclass('Main')
+export class Main extends CCAPI.Component {
     start () {
         // Init Core
         Engine.Init();

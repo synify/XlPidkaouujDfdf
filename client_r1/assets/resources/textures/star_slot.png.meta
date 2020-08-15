@@ -2,7 +2,7 @@
   "ver": "1.0.18",
   "importer": "image",
   "imported": true,
-  "uuid": "773cef19-a4ec-4967-bf0c-16dd81968493",
+  "uuid": "87bb370f-ed31-4555-bfa1-d4a4de1b2e3c",
   "files": [
     ".png",
     ".json"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "773cef19-a4ec-4967-bf0c-16dd81968493@6c48a",
+      "uuid": "87bb370f-ed31-4555-bfa1-d4a4de1b2e3c@6c48a",
       "displayName": "star_slot",
       "id": "6c48a",
       "name": "texture",
@@ -29,12 +29,12 @@
         "premultiplyAlpha": false,
         "anisotropy": 1,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "773cef19-a4ec-4967-bf0c-16dd81968493"
+        "imageUuidOrDatabaseUri": "87bb370f-ed31-4555-bfa1-d4a4de1b2e3c"
       }
     }
   },
   "userData": {
     "type": "texture",
-    "redirect": "773cef19-a4ec-4967-bf0c-16dd81968493@6c48a"
+    "redirect": "87bb370f-ed31-4555-bfa1-d4a4de1b2e3c@6c48a"
   }
 }
